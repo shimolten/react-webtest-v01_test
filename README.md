@@ -20,6 +20,9 @@ git clone [https://github.com/shimolten/react-webtest-v01_test.git](https://gith
 cd react-webtest-v01_test
 ```
 
+---
+
+
 ### 🛠️ クローン後の起動・操作手順（Dockerなし）
 
 GitHubからプロジェクトをクローンした後の、具体的な起動から終了までの流れです。
@@ -63,6 +66,9 @@ Reactの画面が表示されれば無事起動完了です！以降はコード
 cd react-webtest-v01_test
 npm run dev
 ```
+
+
+---
 
 
 ### 🐳 クローン後の起動・操作手順（Dockerあり）
