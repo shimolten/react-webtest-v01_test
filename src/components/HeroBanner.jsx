@@ -32,11 +32,6 @@ export default function HeroBanner({ show }) {
 
         <p className="hero-summary"> {summary} </p>
         <div className="hero-buttons">
-           {/* Reactの書き方 
-          <button className="btn btn-secondary" onClick={() => navigate(`/show/${show.id}`)}>
-            ⓘ 詳細情報
-          </button>
-          */}
           <button class="btn btn-secondary" onClick={() => {window.location.href = '/ShowDetail.html';}}>ⓘ 詳細情報</button>
         </div>
       </div>

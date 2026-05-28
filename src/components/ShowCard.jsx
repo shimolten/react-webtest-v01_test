@@ -16,11 +16,9 @@ export default function ShowCard({ show }) {
       ? `⭐ ${show.rating.average}`
       : '⭐ -';
 
-    {/* 
-      <div className="show-card" onClick={() => navigate(`/show/${show.id}` } >*/}
   return ( 
     <>
-     {/* 静的HTMLではなく、React の画面遷移を使用してください */}
+     {/* 現在はShowDetail.htmlに遷移していますが、静的HTMLではなく、React の画面遷移を使用してください */}
     <div className="show-card" onClick={() => { window.location.href = '/ShowDetail.html';}} >
       <div className="card-image-wrapper">
         <img src={image} alt={show.name} className="card-image" />
