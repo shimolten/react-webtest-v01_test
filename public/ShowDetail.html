@@ -1,0 +1,48 @@
+  <!-- React試験
+・pagesにShowDetail.jsxを作成し、ReactのRouterで詳細画面遷移できるようにしてください。
+  -->
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Show Detail</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/App.css">
+</head>
+
+<body>
+  <!-- 詳細画面 -->
+  <div class="detail-view-container">
+    <!-- 戻る -->
+    <div class="back-nav-container">
+      <button class="btn-back"  onclick="location.href='/'">← ホームに戻る</button>
+    </div>
+    <!-- 詳細レイアウト -->
+    <div class="detail-layout">
+      <!-- 左：ポスター -->
+      <div class="detail-poster-wrapper">
+        <img src="https://static.tvmaze.com/uploads/images/medium_portrait/501/1253498.jpg" alt="Breaking Bad" class="detail-poster">
+      </div>
+      <!-- 右：詳細 -->
+      <div class="detail-info-pane">
+        <!-- タイトル -->
+        <h2 class="detail-show-title">Star Wars</h2>
+            <div class="detail-info-grid">
+                <div class="info-item">
+                    <span class="info-label">言語</span>
+                    <span class="info-value">English</span>
+                </div>
+            </div>
+        <!-- 概要 -->
+        <h3 class="detail-description-title">概要</h3>
+        <p class="detail-description-text">Star Wars: The Clone Wars is an American animated science fiction television series created by George Lucas and produced by Lucasfilm Animation.</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
